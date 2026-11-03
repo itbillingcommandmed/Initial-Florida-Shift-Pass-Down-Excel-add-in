@@ -10,6 +10,6 @@
   <SupportUrl DefaultValue="https://cmdmedical.sharepoint.com/Production"/>
   <AppDomains><AppDomain>https://cmdmedical.sharepoint.com</AppDomain></AppDomains>
   <Hosts><Host Name="Workbook"/></Hosts>
-  <DefaultSettings><SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/></DefaultSettings>
+  <DefaultSettings><SourceLocation DefaultValue="https://blue-hill-0a7467110.3.azurestaticapps.net/taskpane.html"/></DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
