@@ -21,6 +21,11 @@ module.exports = async (env, argv) => {
         filename: "taskpane.html",
       }),
 
+      new HtmlWebpackPlugin({
+        template: "./src/taskpane.html",
+        filename: "index.html",
+      }),
+
       new CopyWebpackPlugin({
         patterns: [
           {
@@ -32,8 +37,6 @@ module.exports = async (env, argv) => {
     ],
   };
 
-  // Only configure the localhost HTTPS server during development.
-  // GitHub/Azure production builds do not need a local certificate.
   if (isDevelopment) {
     const httpsOptions = await devCerts.getHttpsServerOptions();
 
