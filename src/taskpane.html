@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Florida Shift Pass Down</title>
+
+  <!-- Microsoft Office JavaScript API -->
+  <script
+    type="text/javascript"
+    src="https://officeapis.public.onecdn.static.microsoft/1/office.js">
+  </script>
+</head>
+
+<body>
+  <div class="app">
+    <h1>Florida Shift Pass Down</h1>
+
+    <p>
+      Creates a queue item using your Microsoft 365 identity.
+    </p>
+
+    <button id="submit" type="button">
+      Submit Shift Pass Down
+    </button>
+
+    <div id="status" role="status" aria-live="polite"></div>
+  </div>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      color: #242424;
+      background-color: #ffffff;
+    }
+
+    .app {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin: 0 0 8px;
+    }
+
+    p {
+      line-height: 1.4;
+    }
+
+    button {
+      width: 100%;
+      padding: 11px;
+      border: 0;
+      border-radius: 4px;
+      background: #0f6cbd;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #115ea3;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: wait;
+    }
+
+    #status {
+      margin-top: 14px;
+      line-height: 1.4;
+    }
+
+    .ok {
+      color: #0f7b0f;
+    }
+
+    .error {
+      color: #c50f1f;
+      white-space: pre-wrap;
+    }
+  </style>
+</body>
+</html>
